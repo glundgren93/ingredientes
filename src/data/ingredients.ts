@@ -1,24 +1,5 @@
 import { Ingredient, IngredientNames } from "../models/ingredient.model";
 
-function normalizeIngredients(data: Ingredient[]) {
-  data.forEach((ingredient) => {
-    ingredient.combinations.forEach((combination: string) => {
-      const found = data.find((i) => i.name === combination);
-      if (!found) {
-        data.push({
-          name: combination,
-          combinations: [ingredient.name],
-          recipes: [],
-        });
-      }
-      if (found && !found.combinations.includes(ingredient.name)) {
-        found.combinations.push(ingredient.name);
-      }
-    });
-  });
-  return JSON.stringify(data);
-}
-
 export const data: Ingredient[] = [
   {
     name: IngredientNames.FRANGO,
