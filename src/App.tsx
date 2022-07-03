@@ -59,8 +59,8 @@ function App() {
         ></input>
       </div>
       {selectedIngredient ? (
-        <div className="flex flex-row p-2">
-          <div className="self-start border-solid border border-gray-400 rounded-lg mr-5">
+        <div className="flex flex-col md:flex-row pt-5 2xl:p-2">
+          <div className="self-start border-solid border border-gray-400 rounded-lg 2xl:mr-5">
             <h3 className="p-5 text-center text-3xl">
               {selectedIngredient.name}
             </h3>
@@ -71,7 +71,7 @@ function App() {
               ></img>
             </div>
           </div>
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center p-5 2xl:p-0 2xl:justify-start" >
             {selectedIngredient.combinations.map((combination) => {
               return (
                 <div key={combination}>{getCombinationData(combination)}</div>
