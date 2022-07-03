@@ -20,7 +20,7 @@ export const data: Ingredient[] = [
       IngredientNames.LIMÃO,
     ],
     recipes: [],
-    image: "../../images/frango.jpg",
+    image: "/assets/images/frango.jpg",
   },
   {
     name: IngredientNames.ALHO,
@@ -36,7 +36,7 @@ export const data: Ingredient[] = [
       IngredientNames.PORCO,
     ],
     recipes: [],
-    image: "../../images/alho.jpg",
+    image: "/assets/images/alho.jpg",
   },
   {
     name: IngredientNames.CEBOLA,
@@ -54,7 +54,7 @@ export const data: Ingredient[] = [
       IngredientNames.PORCO,
     ],
     recipes: [],
-    image: "../../images/cebola.jpg",
+    image: "/assets/images/cebola.jpg",
   },
   {
     name: IngredientNames.COENTRO,
@@ -65,7 +65,7 @@ export const data: Ingredient[] = [
       IngredientNames.CALDOS,
     ],
     recipes: [],
-    image: "../../images/coentro.jpg",
+    image: "/assets/images/coentro.jpg",
   },
   {
     name: IngredientNames.ESTRAGÃO,
@@ -79,7 +79,7 @@ export const data: Ingredient[] = [
       IngredientNames.PEIXE,
     ],
     recipes: [],
-    image: "../../images/estragao.jpg",
+    image: "/assets/images/estragao.jpg",
   },
   {
     name: IngredientNames.LOURO,
@@ -91,7 +91,7 @@ export const data: Ingredient[] = [
       IngredientNames.MANJERONA,
     ],
     recipes: [],
-    image: "../../images/louro.jpg",
+    image: "/assets/images/louro.jpg",
   },
   {
     name: IngredientNames.MANJERICÃO,
@@ -111,7 +111,7 @@ export const data: Ingredient[] = [
       IngredientNames.MASSAS,
     ],
     recipes: [],
-    image: "../../images/manjericao.jpg",
+    image: "/assets/images/manjericao.jpg",
   },
   {
     name: IngredientNames.MANJERONA,
@@ -126,7 +126,7 @@ export const data: Ingredient[] = [
       IngredientNames.LOURO,
     ],
     recipes: [],
-    image: "../../images/manjerona.jpg",
+    image: "/assets/images/manjerona.jpg",
   },
   {
     name: IngredientNames.NOZ_MOSCADA,
@@ -140,7 +140,7 @@ export const data: Ingredient[] = [
       IngredientNames.PEIXE,
     ],
     recipes: [],
-    image: "../../images/noz_moscada.jpg",
+    image: "/assets/images/noz_moscada.jpg",
   },
   {
     name: IngredientNames.ORÉGANO,
@@ -152,13 +152,13 @@ export const data: Ingredient[] = [
       IngredientNames.MASSAS,
     ],
     recipes: [],
-    image: "../../images/oregano.jpg",
+    image: "/assets/images/oregano.jpg",
   },
   {
     name: "Salsa",
     combinations: [""],
     recipes: [],
-    image: "../../images/salsa.jpg",
+    image: "/assets/images/salsa.jpg",
   },
   {
     name: IngredientNames.SALSÃO,
@@ -172,7 +172,7 @@ export const data: Ingredient[] = [
       IngredientNames.PEIXE,
     ],
     recipes: [],
-    image: "../../images/aipo.jpg",
+    image: "/assets/images/aipo.jpg",
   },
   {
     name: IngredientNames.SÁLVIA,
@@ -185,7 +185,7 @@ export const data: Ingredient[] = [
       IngredientNames.PORCO,
     ],
     recipes: [],
-    image: "../../images/salvia.jpg",
+    image: "/assets/images/salvia.jpg",
   },
   {
     name: IngredientNames.TOMILHO,
@@ -200,13 +200,13 @@ export const data: Ingredient[] = [
       IngredientNames.PORCO,
     ],
     recipes: [],
-    image: "../../images/tomilho.jpg",
+    image: "/assets/images/tomilho.jpg",
   },
   {
     name: IngredientNames.COGUMELO,
     combinations: [IngredientNames.FRANGO],
     recipes: [],
-    image: "../../images/cogumelo.jpg",
+    image: "/assets/images/cogumelo.jpg",
   },
   {
     name: IngredientNames.LEGUMES,
@@ -217,7 +217,7 @@ export const data: Ingredient[] = [
       IngredientNames.ALECRIM,
     ],
     recipes: [],
-    image: "../../images/legumes.jpg",
+    image: "/assets/images/legumes.jpg",
   },
   {
     name: IngredientNames.CARNE,
@@ -234,7 +234,7 @@ export const data: Ingredient[] = [
       IngredientNames.ALHO_PORÓ,
     ],
     recipes: [],
-    image: "../../images/carne.jpg",
+    image: "/assets/images/carne.jpg",
   },
   {
     name: IngredientNames.PEIXE,
@@ -257,7 +257,7 @@ export const data: Ingredient[] = [
       IngredientNames.ESTRAGÃO,
     ],
     recipes: [],
-    image: "../../images/peixe.jpg",
+    image: "/assets/images/peixe.jpg",
   },
   {
     name: IngredientNames.CALDOS,
@@ -268,7 +268,7 @@ export const data: Ingredient[] = [
       IngredientNames.CANELA,
     ],
     recipes: [],
-    image: "../../images/caldo.jpg",
+    image: "/assets/images/caldo.jpg",
   },
   {
     name: IngredientNames.VINAGRES,
@@ -278,19 +278,19 @@ export const data: Ingredient[] = [
       IngredientNames.SALADAS,
     ],
     recipes: [],
-    image: "../../images/vinagres.jpg",
+    image: "/assets/images/vinagres.jpg",
   },
   {
     name: IngredientNames.SALADAS_VERDES,
     combinations: [IngredientNames.ESTRAGÃO],
     recipes: [],
-    image: "../../images/salada_verde.jpg",
+    image: "/assets/images/salada_verde.jpg",
   },
   {
     name: IngredientNames.FRUTOS_DO_MAR,
     combinations: [IngredientNames.ESTRAGÃO],
     recipes: [],
-    image: "../../images/frutos_do_mar.jpg",
+    image: "/assets/images/frutos_do_mar.jpg",
   },
   {
     name: IngredientNames.OVOS,
@@ -305,7 +305,7 @@ export const data: Ingredient[] = [
       IngredientNames.SALSINHA,
     ],
     recipes: [],
-    image: "../../images/ovos.jpg",
+    image: "/assets/images/ovos.jpg",
   },
   {
     name: IngredientNames.FEIJÃO,
@@ -319,7 +319,7 @@ export const data: Ingredient[] = [
       IngredientNames.COMINHO,
     ],
     recipes: [],
-    image: "../../images/feijao.jpg",
+    image: "/assets/images/feijao.jpg",
   },
   {
     name: IngredientNames.MOLHOS,
@@ -337,26 +337,26 @@ export const data: Ingredient[] = [
       IngredientNames.CANELA,
     ],
     recipes: [],
-    image: "../../images/molhos.jpg",
+    image: "/assets/images/molhos.jpg",
   },
   {
     name: IngredientNames.MOLHO_PESTO,
     combinations: [IngredientNames.MANJERICÃO],
     recipes: [],
-    image: "../../images/molho_pesto.jpg",
+    image: "/assets/images/molho_pesto.jpg",
   },
   {
     name: IngredientNames.MOLHOS_VERMELHOS,
     combinations: [IngredientNames.MANJERONA, IngredientNames.NOZ_MOSCADA],
     recipes: [],
-    image: "../../images/molhos_vermelhos.jpg",
+    image: "/assets/images/molhos_vermelhos.jpg",
   },
 
   {
     name: IngredientNames.CALDOS,
     combinations: [IngredientNames.NOZ_MOSCADA, IngredientNames.SALSÃO],
     recipes: [],
-    image: "../../images/caldo.jpg",
+    image: "/assets/images/caldo.jpg",
   },
   {
     name: IngredientNames.SOPAS,
@@ -367,13 +367,13 @@ export const data: Ingredient[] = [
       IngredientNames.ALECRIM,
     ],
     recipes: [],
-    image: "../../images/sopas.jpg",
+    image: "/assets/images/sopas.jpg",
   },
   {
     name: IngredientNames.SALADAS_FRIAS,
     combinations: [IngredientNames.SALSÃO],
     recipes: [],
-    image: "../../images/salda_fria.jpg",
+    image: "/assets/images/salda_fria.jpg",
   },
   {
     name: IngredientNames.ALECRIM,
@@ -391,7 +391,7 @@ export const data: Ingredient[] = [
       IngredientNames.MANJERONA,
     ],
     recipes: [],
-    image: "../../images/alecrim.jpg",
+    image: "/assets/images/alecrim.jpg",
   },
   {
     name: IngredientNames.ALHO_PORÓ,
@@ -401,7 +401,7 @@ export const data: Ingredient[] = [
       IngredientNames.PEIXE,
     ],
     recipes: [],
-    image: "../../images/alho_poro.jpg",
+    image: "/assets/images/alho_poro.jpg",
   },
   {
     name: IngredientNames.ARROZ,
@@ -414,7 +414,7 @@ export const data: Ingredient[] = [
       IngredientNames.SÁLVIA,
     ],
     recipes: [],
-    image: "../../images/arroz.jpg",
+    image: "/assets/images/arroz.jpg",
   },
   {
     name: IngredientNames.AÇAFRÃO,
@@ -426,7 +426,7 @@ export const data: Ingredient[] = [
       IngredientNames.MASSAS,
     ],
     recipes: [],
-    image: "../../images/acafrao.jpg",
+    image: "/assets/images/acafrao.jpg",
   },
   {
     name: IngredientNames.COMINHO,
@@ -437,12 +437,12 @@ export const data: Ingredient[] = [
       "Pimenta do reino",
       IngredientNames.FEIJÃO,
     ],
-    image: "../../images/cominho.jpg",
+    image: "/assets/images/cominho.jpg",
   },
   {
     name: IngredientNames.PIMENTA_DO_REINO,
     combinations: [IngredientNames.COMINHO],
-    image: "../../images/pimenta_do_reino.jpg",
+    image: "/assets/images/pimenta_do_reino.jpg",
   },
   {
     name: IngredientNames.CEBOLINHA,
@@ -457,17 +457,17 @@ export const data: Ingredient[] = [
       IngredientNames.SALADAS,
       IngredientNames.MASSAS,
     ],
-    image: "../../images/cebolinha.jpg",
+    image: "/assets/images/cebolinha.jpg",
   },
   {
     name: IngredientNames.PIMENTÃO,
     combinations: [IngredientNames.OVOS, IngredientNames.SALADAS],
-    image: "../../images/pimentao.jpg",
+    image: "/assets/images/pimentao.jpg",
   },
   {
     name: IngredientNames.PÁPRICA,
     combinations: [IngredientNames.OVOS],
-    image: "../../images/paprica.jpg",
+    image: "/assets/images/paprica.jpg",
   },
 
   {
@@ -478,7 +478,7 @@ export const data: Ingredient[] = [
       IngredientNames.SALADAS,
       IngredientNames.MASSAS,
     ],
-    image: "../../images/salsinha.jpg",
+    image: "/assets/images/salsinha.jpg",
   },
   {
     name: IngredientNames.SALADAS,
@@ -492,7 +492,7 @@ export const data: Ingredient[] = [
       IngredientNames.PIMENTÃO,
       IngredientNames.ALECRIM,
     ],
-    image: "../../images/saladas.jpg",
+    image: "/assets/images/saladas.jpg",
   },
   {
     name: IngredientNames.MASSAS,
@@ -505,7 +505,7 @@ export const data: Ingredient[] = [
       IngredientNames.CEBOLINHA,
       IngredientNames.ORÉGANO,
     ],
-    image: "../../images/massas.jpg",
+    image: "/assets/images/massas.jpg",
   },
   {
     name: IngredientNames.PORCO,
@@ -517,22 +517,22 @@ export const data: Ingredient[] = [
       IngredientNames.SÁLVIA,
       IngredientNames.TOMILHO,
     ],
-    image: "../../images/porco.jpg",
+    image: "/assets/images/porco.jpg",
   },
   {
     name: IngredientNames.LIMÃO,
     combinations: [IngredientNames.FRANGO, IngredientNames.PORCO],
     recipes: [],
-    image: "../../images/limao.jpg",
+    image: "/assets/images/limao.jpg",
   },
   {
     name: IngredientNames.CANELA,
     combinations: [IngredientNames.CALDOS, IngredientNames.MOLHOS],
-    image: "../../images/canela.jpg",
+    image: "/assets/images/canela.jpg",
   },
   {
     name: IngredientNames.BATATAS,
     combinations: [IngredientNames.ALECRIM, IngredientNames.CEBOLINHA],
-    image: "../../images/batata.jpg",
+    image: "/assets/images/batata.jpg",
   },
 ];
