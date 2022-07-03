@@ -36,7 +36,7 @@ function App() {
           <h1 className="text-center font-bold text-3xl mt-5 mb-3">
             🧂🧄 Ingredientes 🧅🥕
           </h1>
-          <h2 className="text-center my-2 text-2xl c-yellow">
+          <h2 className="text-center my-2 text-2xl">
             Descubra as combinações dos ingredientes
           </h2>
         </div>
@@ -73,7 +73,9 @@ function App() {
           </div>
           <div className="flex flex-wrap">
             {selectedIngredient.combinations.map((combination) => {
-              return <div>{getCombinationData(combination)}</div>;
+              return (
+                <div key={combination}>{getCombinationData(combination)}</div>
+              );
             })}
           </div>
         </div>
